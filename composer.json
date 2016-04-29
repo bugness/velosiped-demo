@@ -1,0 +1,26 @@
+{
+    "name": "bugness/velosiped-demo",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bugness/velosiped"
+        }
+    ],
+    "require": {
+        "bugness/velosiped": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bugness",
+            "email": "bugness@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/"
+        }
+    }
+}
