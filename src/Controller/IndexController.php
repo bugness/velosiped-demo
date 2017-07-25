@@ -8,6 +8,8 @@ class IndexController extends Controller
 {
     public function indexAction()
     {
-        return $this->getContainer()->getView()->render('index.phtml', ['name' => 'Vasya']);
+        return $this->getContainer()->getView()->render('index/index.phtml', [
+            'name' => 'Vasya',
+        ]);
     }
 }

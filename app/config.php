@@ -1,7 +1,12 @@
 <?php
 
 return [
-    'production' => [],
+    'production' => [
+        'routes' => include APPLICATION_PATH . '/app/routes.php',
+        'templates' => APPLICATION_PATH . '/views/',
+    ],
     'testing' => [],
-    'development' => [],
+    'development' => [
+        'debug' => true,
+    ],
 ];
